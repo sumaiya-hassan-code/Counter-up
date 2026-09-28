@@ -18,5 +18,5 @@ arr.map((item)=>{
 
     let stop = setInterval(function(){
         counterup()
-    }, 20000/item.dataset.number)
+    }, 10000/item.dataset.number)
 })
